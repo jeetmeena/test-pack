@@ -1,7 +1,7 @@
 {
   "name": "test-pack",
-  "version": "1.0.1",
-  "description": "TypeScript boilerplate for NPM or Github Packages",
+  "version": "1.1.1",
+  "description": "TypeScript Hello for NPM or Github Packages",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
