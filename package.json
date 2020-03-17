@@ -1,0 +1,37 @@
+{
+  "name": "dod",
+  "version": "1.0.0",
+  "description": "TypeScript boilerplate for NPM or Github Packages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "npm publish"
+  },
+  "keywords": [
+    "typescript",
+    "github packages",
+    "npm packages",
+    "boilerplate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeetmeena/test-pack.git"
+  },
+  "author": "Jeet Meena",
+  "license": "ISC",
+  "dependencies": {},
+  "engines": {
+    "node": ">=8"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@jeetmeena"
+  },
+  "bugs": {
+    "url": "https://github.com/jeetmeena/test-pack/issues"
+  },
+  "homepage": "https://github.com/jeetmeena/test-pack#readme",
+  "directories": {
+    "test": "test"
+  }
+}
